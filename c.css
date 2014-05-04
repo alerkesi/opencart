@@ -68,7 +68,6 @@ a {
 
 .a li {
     display: inline-block;
-    text-align: left;
 }
 
 .disable-hover {
@@ -703,6 +702,11 @@ a {
 
 .a-card__options {
     width: 13%;
+    text-align: center;
+    padding-top: 15px;
+}
+.a-card__options li {
+    margin-bottom: 50px;
 }
 
 .a-card__links {
@@ -743,7 +747,72 @@ a {
     font-size: 16px;
     display: inline-block;
 }
-.param-dots {
-    border-bottom: 1px dotted rgb(179, 179, 179);
-    width: 100%;
+.a-card__params li {
+    display: table;
+
 }
+.test {
+    display: table-cell;
+    width: 60%;
+}
+.param-dots {
+    width: 100%;
+    border: 0 none transparent;
+    border-bottom: 1px dotted black;
+    background: transparent!important;
+    outline: none!important;
+}
+.param-name {
+    font-size: 12px;
+    font-weight: bold;
+    /*float: left;*/
+}
+.param-value {
+    font-size: 14px;
+}
+.params-ab-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.params-ab {
+    display: block!important;
+    font-size: 12px;
+}
+.starbar {
+    width: 75px;
+    height: 14px;
+    background-position: 0 -151px;
+    display: inline-block;
+}
+
+.starbar_w {
+    width: 60px;
+    height: 14px;
+    background-position: 0 -165px;
+}
+
+.option1 {
+    background-position: 0 -181px;
+    width: 38px;
+    height: 31px;
+}
+.option3 {
+    background-position: -39px -181px;
+    width: 31px;
+    height: 37px;
+}
+.option2 {
+    background-position: -71px -181px;
+    width: 34px;
+    height: 30px;
+}
+.option4 {
+    background-position: -106px -181px;
+    width: 30px;
+    height: 36px;
+}
+.option {
+    font-size: 12px;
+}
+
