@@ -487,6 +487,18 @@ a {
 .m-link {
     line-height: 14px;
 }
+.otzyv-desc {
+    margin-bottom: 20px;
+}
+.m-button {
+    width: 124px;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #e8e8e8;
+
+}
 
 .hit-scroll {
     height: 300px;
@@ -559,7 +571,7 @@ a {
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
-
+    font-size: 20px;
 }
 
 
@@ -715,11 +727,11 @@ a {
 .green-grad {
     color: white!important;
     background-color: rgb(38, 156, 80);
-    background-image: linear-gradient(left, rgb(97, 200, 129) 0%, rgb(38, 156, 80) 50%, rgb(67, 172, 116) 100%);
-    background-image: -webkit-linear-gradient(left, rgb(97, 200, 129) 0%, rgb(38, 156, 80) 50%, rgb(67, 172, 116) 100%);
-    background-image: -moz-linear-gradient(left, rgb(97, 200, 129) 0%, rgb(38, 156, 80) 50%, rgb(67, 172, 116) 100%);
-    background-image: -o-linear-gradient(left, rgb(97, 200, 129) 0%, rgb(38, 156, 80) 50%, rgb(67, 172, 116) 100%);
-    background-image: linear-gradient(to right, rgb(97, 200, 129) 0%, rgb(38, 156, 80) 50%, rgb(67, 172, 116) 100%);
+    background-image: linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -webkit-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -moz-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -o-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
 
 }
 
