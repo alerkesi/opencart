@@ -42,7 +42,7 @@ i {
     box-shadow: 0 0 150px #303030;
 }
 
-.a-content, .a-footer {
+.a-content, .a-footer__bg {
     min-width: 1100px;
     max-width: 1200px;
     margin: 0 auto;
@@ -315,8 +315,8 @@ a {
 }
 
 /*---Justify helper */
-.a-menu .selected {
-    color: #303030;
+.red-link {
+    color: #b90000;
 }
 
 .flt-l {
@@ -500,6 +500,8 @@ a {
     height: 270px;
     padding: 10px 5px 0 20px;
     margin-right: 0 !important;
+    display: inline-block;
+
 }
 
 .hit-scroll__item:first-child {
@@ -601,7 +603,7 @@ a {
 
 .desc-column > p {
     font-size: 12px;
-    line-height: 12px;
+    line-height: 16px;
 }
 
 .a-footer {
@@ -621,7 +623,7 @@ a {
     position: absolute;
     text-align: right;
     top: 30px;
-    right: 70px;
+    right: 0;
 }
 
 .a-footer__clm1 {
@@ -644,7 +646,7 @@ a {
 
 .a-footer__copyright {
     position: absolute;
-    right: 70px;
+    right: 0;
     bottom: 10px;
     text-align: right;
 }
