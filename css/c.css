@@ -30,7 +30,7 @@ i {
 }
 
 .a-container {
-    background: url('images/background.png') repeat;
+    background: url('../images/background.png') repeat;
 }
 
 .a-content {
@@ -358,7 +358,7 @@ a {
 }
 
 .sp {
-    background-image: url('images/sprite.png');
+    background-image: url('../images/sprite.png');
     display: inline-block;
 }
 
@@ -704,6 +704,7 @@ a {
     width: 13%;
     text-align: center;
     padding-top: 15px;
+    padding-left: 10px;
 }
 .a-card__options li {
     margin-bottom: 50px;
@@ -719,23 +720,29 @@ a {
 }
 
 .new-price {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 30px;
+    color: #000;
 }
 .old-price {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: line-through;
-    font-weight: bold;
+    color: #6d6d6d;
 }
-
+.qst {
+    background-position: -95px 0;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+}
 .green-grad {
     color: white!important;
     background-color: rgb(38, 156, 80);
-    background-image: linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
-    background-image: -webkit-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
-    background-image: -moz-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
-    background-image: -o-linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
-    background-image: linear-gradient(bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: linear-gradient(top, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -webkit-linear-gradient(top, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -moz-linear-gradient(top, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: -o-linear-gradient(top, #45ac69 0%, #23994d 42.8%, #61c785 100%);
+    background-image: linear-gradient(to bottom, #45ac69 0%, #23994d 42.8%, #61c785 100%);
 
 }
 
@@ -747,13 +754,18 @@ a {
     font-size: 16px;
     display: inline-block;
 }
-.a-card__params li {
-    display: table;
-
+.a-card__params {
+    width: 100%;
 }
-.test {
-    display: table-cell;
-    width: 60%;
+
+.param-left-clm {
+    width: 50%;
+    text-align: left;
+    background: url("../images/dots.gif") repeat-x 100% .9em;
+}
+.param-right-clm {
+    width: 47%;
+
 }
 .param-dots {
     width: 100%;
@@ -765,7 +777,8 @@ a {
 .param-name {
     font-size: 12px;
     font-weight: bold;
-    /*float: left;*/
+    background-color: #fff;
+    padding: 0 2px 0 0;
 }
 .param-value {
     font-size: 14px;
@@ -779,37 +792,46 @@ a {
     display: block!important;
     font-size: 12px;
 }
+.params-ab > * {
+    vertical-align: middle;
+}
 .starbar {
     width: 75px;
     height: 14px;
-    background-position: 0 -151px;
+    background-position: 0 -203px;
     display: inline-block;
+    position: relative;
+    vertical-align: bottom;
 }
 
 .starbar_w {
     width: 60px;
     height: 14px;
-    background-position: 0 -165px;
+    background-position: 0 -188px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
 
 .option1 {
-    background-position: 0 -181px;
+    background-position: 0 -151px;
     width: 38px;
     height: 31px;
 }
-.option3 {
-    background-position: -39px -181px;
-    width: 31px;
-    height: 37px;
-}
 .option2 {
-    background-position: -71px -181px;
-    width: 34px;
+    background-position: -41px -151px;
+    width: 35px;
     height: 30px;
 }
+.option3 {
+    background-position: -75px -151px;
+    width: 32px;
+    height: 37px;
+}
 .option4 {
-    background-position: -106px -181px;
-    width: 30px;
+    background-position: -106px -151px;
+    width: 31px;
     height: 36px;
 }
 .option {
